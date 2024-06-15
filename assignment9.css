@@ -1,0 +1,38 @@
+.Loki{
+    color:brown
+}
+.header li{
+    list-style-type: none; 
+    margin:20px;
+}
+.header li a{
+    text-decoration: none;
+    font-size:20px;
+    font-weight:700;
+    padding:10px;
+    
+}
+.header li a:hover{
+    
+    padding:10px;
+    
+}
+.header li a.active{
+
+    padding:10px;
+
+}
+.header{
+    display:flex;
+    
+}
+.font-1{
+    font-size: 20px;
+}
+.aside-1{
+    width: 30;
+    border: 2px solid red;
+    background-color: white;
+    font-size: 20px;
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Assignment</title>
+</head>
+<body>
+    <h1>HTML Form with Select and Radio Buttons</h1>
+    <form>
+        <!-- Text input for user's name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <!-- Radio buttons for selecting gender -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+        
+        <!-- Dropdown menu for selecting a country -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="Ind">India</option>
+            <option value="eng">England</option>
+            <option value="usa">United states</option>
+            <option value="australia">Australia</option>
+            <!-- Add more options as needed -->
+        </select><br><br>
+        
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
